@@ -1,0 +1,33 @@
+.menu1, 
+
+.menu2 {
+    display: flex;
+    flex-direction: row
+}
+
+.menu3, .menu2 {
+    display: flex;
+    justify-content: center
+}
+
+.menu4, .menu2 {
+    display: flex;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.menu5, .menu2 {
+    background-color: bisque;
+}
+
+.menu6 {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    height: 300px;
+    margin-right: 1em;
+}
+
+li{
+    margin: 37px;
+}
